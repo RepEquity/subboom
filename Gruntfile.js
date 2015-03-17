@@ -26,7 +26,7 @@ module.exports = function (grunt) {
           compass: false
         },
         files: {
-          'stylesheets/style.css': 'sass/style.scss'
+          'stylesheets/subboom-style.css': 'sass/style.scss'
         }
       }
     }, //sass
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
       },
       dev: {
         files: {
-          'stylesheets/style.css' : 'stylesheets/style.css'
+          'stylesheets/subboom-style.css' : 'stylesheets/subboom-style.css'
         }
       }
     }, //autoprefixer

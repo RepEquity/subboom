@@ -1,41 +1,13 @@
-name =subboom
-description = D7 starter theme by RepEquity.
+name = subboom
+description = D7 subtheme by RepEquity.
 screenshot = screenshot.png
 version = 1.0-beta
 engine = phptemplate
 core = 7.x
-base theme  = Boom
+base theme  = jarvis
 
-; ========================================
-; Stylesheets
-; ========================================
-stylesheets[all][] = stylesheets/style.css
-
-; ========================================
-; Scripts
-; ========================================
+stylesheets[all][] = stylesheets/subboom-style.css
 scripts[] = js/subboom-functions.js
 
-; ========================================
-; Regions
-; ========================================
+; Copy and Paste regions from parent theme below
 regions[content] = Content
-
-; ========================================
-; Features
-; ========================================
-features[] = logo
-features[] = favicon
-
-; ========================================
-; Settings
-; ========================================
-settings[toggle_logo] = 0
-settings[toggle_name] = 0
-settings[toggle_slogan] = 0
-settings[toggle_node_user_picture] = 0
-settings[toggle_comment_user_picture] = 0
-settings[toggle_comment_user_verification] = 0
-settings[toggle_favicon] = 0
-settings[toggle_main_menu] = 0
-settings[toggle_secondary_menu] = 0
